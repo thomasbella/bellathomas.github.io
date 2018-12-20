@@ -13,12 +13,12 @@ body{
 a{
 	color:white;
 	text-decoration:none;
-	font-family:"Alegreya Sans", sans-serif;
+	font-family:'Avenir Next LT Pro Condensed 5184', 'Alegreya Sans', sans-serif;
 	font-size:30px;
 }
 
 p{
-	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-family:"Alegreya Sans", sans-serif;
 	font-size:20px;
 	color:white;
 }
@@ -92,6 +92,7 @@ header{
 
 .heroimg h1{
 	font-size:50px;
+	text-align:center;
 }
 
 .landingtext{
@@ -190,15 +191,18 @@ footer{
 
 
 .footlinks a{
-	padding:10px;
+	font-size:15px;
 }
 .footlinks ul{
 	list-style-type:none;
-	padding:10px;
 	display:flex;
 	flex-flow:column nowrap;
 	align-items:center;
 	justify-content: space-around;
+}
+
+.footlinks li{
+	padding:10px;
 }
 
 	/*Booking side*/
@@ -216,8 +220,14 @@ footer{
 }
 
 .input{
-	padding:20px;
-	max-width:80px;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+}
+
+.input li{
+	margin:20px;
 }
 
 	/*Menu*/
