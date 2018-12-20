@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/stylesheet.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+	<title>Bella Italia</title>
+</head>
+
+<body>
+	<header>
+		<nav class="firstnav">
+			<a href="#" ><img class="logo" src="img/logo.png" alt="Bella Italia"></a>
+			<i class="fas fa-bars fa-2x navToggle"></i>
+		</nav>
+		<nav class="secondnav">
+			<ul>
+				<li><a href="menu.html">Menu</a></li>
+				<li><a href="booking.html">Booking</a></li>
+				<li><a href="voreshistorie.html">Om os</a></li>
+				<li><a href="#kontaktinfo">Kontakt</a></li>
+			</ul>
+		</nav>
+	</header>
+		
+	
+	
+	<section class="heroimg">
+		<h1><br>Velkommen til Bella Italia</h1>
+	</section>
+	<section class="landingtext">
+		<h1>Du kan booke et bord i gennem vores booking side<br>
+Du kan også vores finde store menukort, fyldt med italienske specialiteter</h1> 
+	</section>
+	
+	<main>
+		<img class="bookingbtn" src="img/tabledecor.jpg" alt="Bord">
+
+		<section class="slideimg"></section>
+
+		<article class="menubilleder">
+			<section class="pizza"><img src="img/pizza.jpg" alt="Pizza"></section>
+			<section class="pasta"><img src="img/pasta.jpg" alt="Pasta"></section>
+			<section class="suppe"><img src="img/tomatsuppe.jpg" alt="Suppe"></section>
+			<section class="salat"><img src="img/salad.jpg" alt="Salat"></section>
+		</article>
+		
+		<article id="kontaktinfo">
+			<section class="openclose">
+				<h2>Åbningstider</h2>
+				<p>Man: xx-xx</p>
+				<p>Tir: xx-xx</p>
+				<p>Ons: xx-xx</p>
+				<p>Tor: xx-xx</p>
+				<p>Fre: xx-xx</p>
+				<p>Lør: xx-xx</p>
+				<p>Søn: xx-xx</p>
+			</section>
+			<section class="adresse">
+				<h2>Adresse</h2>
+				<p>Jernbanegade 40 <br>6000 - Kolding</p>
+				<h2>Telefonnummer</h2>
+				<p>75505807</p>
+				<h2>E-mail</h2>
+				<p>email@bellaitalia.dk</p>
+				<p></p>
+			</section>
+		</article>
+	</main>
+	<footer>
+		<section class="footlinks">
+			<nav>
+				<ul>
+					<li><img src="img/social.png" alt="Sociale medier"></li>
+					<li><a href="#">Privatlivspolitik</a></li>
+					<li><a href="#">Handelsbetingelser</a></li>
+					<li><a href="kontakt.html">Kontakt</a></li>
+					<li><img src="img/maerker.png" alt="Mærker"></li>
+					<li><img src="img/pay.png" alt="Betaling"></li>
+				</ul>
+			</nav>
+		</section>
+	</footer>
+		
+	<script>
+		function navbarToggle() {
+			const nav = document.querySelector('.secondnav'); 
+			nav.classList.toggle('toggleShow')
+			} 
+			document.querySelector('.navToggle').addEventListener('click', navbarToggle);
+	</script>
+</body>
+
+
+</html>
